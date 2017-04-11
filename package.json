@@ -1,6 +1,6 @@
 {
   "name": "jllustrator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "jQuery add-on to work with Adobe Illustrator SVG with ease",
   "main": "dist/jllustrator.min.js",
   "scripts": {
