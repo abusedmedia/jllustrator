@@ -1,5 +1,66 @@
 ## jllustrator: work with Adobe Illustrator SVG with ease
 
+
+
+
+
+### Quick start
+
+After included the library just add in your HTML document:
+
+```html
+<div jllustrator="myArtwork.svg"></div>
+```
+
+to inject an SVG file into your HTML file alongside some fix and enhancements
+
+To perform some operation after the async nature of the loading process, use the jQuery.ready function as usual:
+
+```javascript
+$(document).ready(function(){
+  console.log('my svg has been loaded')
+  $('svg').on('click', function(){
+    console.log('Click from SVG')
+  })
+})
+```
+
+
+
+### What jllustrator is going to fix on the loaded SVG?
+
+
+
+---
+
+### Dependencies
+
+jQuery 3.x.x
+
+### Install from CDN
+
+Just drop the following lines into the HEAD of the HTML file:
+
+```html
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+```
+
+
+
+### Install locally with npm
+
+```
+npm install jllustrator
+```
+
+
+
+### Load an SVG at runtime
+
+```html
+<div jllustrator="ball.svg"></div>
+```
+
 ---
 
 ## Layer naming conventions
