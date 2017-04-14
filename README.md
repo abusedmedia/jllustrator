@@ -1,4 +1,6 @@
-## jllustrator: work with Adobe Illustrator SVG with ease
+## jllustrator: work with Adobe Illustrator SVG with ease 
+
+[![npm version](https://badge.fury.io/js/jllustrator.svg)](https://badge.fury.io/js/jllustrator)
 
 
 
