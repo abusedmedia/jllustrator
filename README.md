@@ -64,12 +64,25 @@ npm install jllustrator
 <div jllustrator="ball.svg"></div>
 ```
 
+
+### Get a mask reference
+
+In Adobe Illustrator masking a mask is quite straightforward. The problem is when you try to select it clip-mask for manipulate it. Illustrator gives it an internal name (it simply ignores the name you set) making very difficult to recall with jQuery.
+This method gives you a reference of the clip path (if any) of a given clipped object:
+
+```js
+var mask = $('#myObjectMasked').getMask()
+```
+
+
 ---
 
 ## Layer naming conventions
 
 - Don't start with a number in layer name
 - Don't use ```_``` in layer name
+- Don't use ```|``` in layer name
+- Don't use ```_``` in layer name, they will mess up making difficult to recall
 - You can use ```[SPACE]``` and it will be changed as ```_```
 - Layer name are global, so using same name on different layer will cause an automatic changes
 - Text element contains already a name that is equal to the text content. It is a preview and not a regular name therefore change it using a different name (otherwise Illustrator won't change it)
