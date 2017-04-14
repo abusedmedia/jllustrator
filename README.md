@@ -43,6 +43,7 @@ Just drop the following lines into the HEAD of the HTML file:
 
 ```html
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://unpkg.com/jllustrator@0.0.3/dist/jllustrator.min.js"></script>
 ```
 
 
