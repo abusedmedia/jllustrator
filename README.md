@@ -75,6 +75,15 @@ var mask = $('#myObjectMasked').getMask()
 ```
 
 
+
+### Build a grid
+
+```js
+$().grid(3, 3).each(function(i, d){
+    console.log(d)
+})
+```
+
 ---
 
 ## Layer naming conventions
